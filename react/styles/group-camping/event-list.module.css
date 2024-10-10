@@ -1,0 +1,519 @@
+.globe {
+  color: #2d2d2d;
+  /* default p1Tc */
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  /* text color */
+}
+.globe p {
+  margin: 0;
+}
+.globe a {
+  text-decoration: none;
+}
+.globe hr {
+  margin: 0;
+}
+.globe .h1Tc {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 2.56px;
+}
+.globe .h1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 66px;
+  font-weight: 700;
+}
+.globe .h2Tc {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+}
+.globe .h2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 54px;
+  font-weight: 600;
+}
+.globe .h3Tc {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.68px;
+}
+.globe .h3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 44px;
+  font-weight: 600;
+}
+.globe .h4Tc {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+}
+.globe .h4En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 38px;
+  font-weight: 600;
+}
+.globe .h5Tc {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+}
+.globe .h5En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: 600;
+}
+.globe .h6Tc {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.globe .h6En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.globe .p1Tc {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.globe .p1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+}
+.globe .p2Tc {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.globe .p2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+.globe .p3Tc {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+}
+.globe .p3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: 500;
+}
+.globe .asideMainTc {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+}
+.globe .headerEn {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.globe .textHint {
+  color: #e49366;
+}
+.globe .textGray {
+  color: #8f8e93;
+}
+.globe .textError {
+  color: #de3e3e;
+}
+
+.main {
+  width: 1280px;
+  margin: 24px auto;
+}
+
+.poster {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.poster img {
+  max-width: 100%;
+}
+.poster .slogan {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  color: #f5f5f7;
+  text-align: center;
+}
+.poster .btns {
+  position: absolute;
+  top: 50%;
+  right: 80px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.poster .btns .btnPoster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 77px;
+  height: 187px;
+  padding: 16px;
+  flex-shrink: 0;
+  border-radius: 18px;
+  background: rgba(245, 245, 247, 0.8);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.poster .btns .btnPoster:hover {
+  background: rgba(245, 245, 247, 0.9);
+}
+
+.main .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  scroll-margin-top: 64px;
+}
+.main .events {
+  display: flex;
+  margin-block: 48px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.main .pagination {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+.main .pagination .pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main .pagination .goPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.modalCreate {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  background: rgba(51, 51, 51, 0.8);
+  z-index: 1000;
+}
+.modalCreate .modalContent {
+  width: 845px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 35px;
+  background: #f5f5f7;
+}
+.modalCreate .modalContent .head {
+  display: flex;
+  height: 45px;
+  padding: 8px 43px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  background: #413c1c;
+  border-radius: 35px 35px 0 0;
+  color: #f5f5f7;
+}
+.modalCreate .formEvent .content {
+  display: flex;
+  padding: 32px 77px;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  align-self: stretch;
+}
+.modalCreate .formEvent .content .chooseGround {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.modalCreate .formEvent .content .chooseGround .grounds {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 16px;
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround {
+  width: 100%;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  border-radius: 18px;
+  background: #e5e4cf;
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround .cardLabel {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  position: relative;
+  background: #e5e4cf;
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround .cardLabel:hover {
+  background-color: #e5ddcf;
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround .cardLabel .cardImage {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround .cardLabel .customCheckbox {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: transparent;
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround .cardCheckbox:checked + .cardLabel {
+  background-color: rgba(251, 236, 233, 0.9333333333);
+}
+.modalCreate .formEvent .content .chooseGround .grounds .cardGround .cardCheckbox:checked + .cardLabel .customCheckbox {
+  background-color: #e49366;
+  border-color: #e49366;
+  color: #f5f5f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.modalCreate .formEvent .content .infos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+}
+.modalCreate .formEvent .content .infos .info {
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid #8f8e93;
+  display: flex;
+  justify-content: start;
+  gap: 32px;
+}
+.modalCreate .formEvent .content .infos .info .title {
+  width: 108px;
+  flex-shrink: 0;
+}
+.modalCreate .formEvent .content .infos .info .answer {
+  width: 100%;
+}
+.modalCreate .formEvent .content .infos .info .answer input[type=text] {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.modalCreate .formEvent .content .infos .info .answer .description {
+  width: 100%;
+  height: 80px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+}
+.modalCreate .formCreate .content {
+  display: flex;
+  padding: 32px 77px;
+  flex-direction: column;
+  align-items: start;
+  gap: 32px;
+  align-self: stretch;
+}
+.modalCreate .formCreate .content .info {
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 0.5px solid #8f8e93;
+  display: flex;
+  justify-content: start;
+  gap: 32px;
+}
+.modalCreate .formCreate .content .info .title {
+  width: 108px;
+  flex-shrink: 0;
+}
+.modalCreate .formCreate .content .info .answer {
+  width: 100%;
+}
+.modalCreate .formCreate .content .info .answer input[type=text] {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.modalCreate .formCreate .content .info .gender {
+  display: flex;
+  align-items: start;
+  align-content: center;
+  gap: 16px;
+}
+.modalCreate .formCreate .content .info .healthStatus {
+  display: flex;
+  align-items: start;
+  align-content: center;
+  gap: 10px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.modalCreate .formCreate .content .info .healthStatus .formCheck {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+.modalCreate .formCreate .content .info .healthStatus .others {
+  width: 100%;
+}
+.modalCreate .formCreate .content .info .healthStatus .others .other {
+  width: 100%;
+}
+.modalCreate .formCreate .content .info .healthStatus .others .other .enterOther {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.modalCreate .formCreate .content .info .healthStatus .others .other .enterOther .title1 {
+  flex-shrink: 0;
+}
+.modalCreate .consent {
+  padding: 40px 77px;
+  gap: 30px;
+  align-self: stretch;
+}
+.modalCreate .consent .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+.modalCreate .consent .text .item {
+  color: #e49366;
+}
+.modalCreate .btnSubmit {
+  display: flex;
+  padding: 8px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #e49366;
+  color: #f5f5f7;
+}
+.modalCreate .btnSubmit:hover {
+  background: #f5f5f7;
+  color: #e49366;
+}
+.modalCreate .close {
+  width: 38px;
+  height: 38px;
+  border: 3px solid #f5f5f7;
+  color: #f5f5f7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 860px;
+  top: 38px;
+  cursor: pointer;
+}/*# sourceMappingURL=event-list.module.css.map */

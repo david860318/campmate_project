@@ -1,0 +1,155 @@
+.globe {
+  color: #2d2d2d;
+  /* default p1Tc */
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  /* text color */
+}
+.globe p {
+  margin: 0;
+}
+.globe a {
+  text-decoration: none;
+}
+.globe hr {
+  margin: 0;
+}
+.globe .h1Tc {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 2.56px;
+}
+.globe .h1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 66px;
+  font-weight: 700;
+}
+.globe .h2Tc {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+}
+.globe .h2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 54px;
+  font-weight: 600;
+}
+.globe .h3Tc {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.68px;
+}
+.globe .h3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 44px;
+  font-weight: 600;
+}
+.globe .h4Tc {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+}
+.globe .h4En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 38px;
+  font-weight: 600;
+}
+.globe .h5Tc {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+}
+.globe .h5En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: 600;
+}
+.globe .h6Tc {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.globe .h6En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.globe .p1Tc {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.globe .p1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+}
+.globe .p2Tc {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.globe .p2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+.globe .p3Tc {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+}
+.globe .p3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: 500;
+}
+.globe .asideMainTc {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+}
+.globe .headerEn {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.globe .textHint {
+  color: #e49366;
+}
+.globe .textGray {
+  color: #8f8e93;
+}
+.globe .textError {
+  color: #de3e3e;
+}
+
+.main {
+  width: 1280px;
+  margin: 24px auto;
+}/*# sourceMappingURL=group-camping.css.map */

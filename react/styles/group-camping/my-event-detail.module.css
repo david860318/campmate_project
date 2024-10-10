@@ -1,0 +1,309 @@
+.globe {
+  color: #2d2d2d;
+  /* default p1Tc */
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  /* text color */
+}
+.globe p {
+  margin: 0;
+}
+.globe a {
+  text-decoration: none;
+}
+.globe hr {
+  margin: 0;
+}
+.globe .h1Tc {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 2.56px;
+}
+.globe .h1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 66px;
+  font-weight: 700;
+}
+.globe .h2Tc {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+}
+.globe .h2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 54px;
+  font-weight: 600;
+}
+.globe .h3Tc {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.68px;
+}
+.globe .h3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 44px;
+  font-weight: 600;
+}
+.globe .h4Tc {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+}
+.globe .h4En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 38px;
+  font-weight: 600;
+}
+.globe .h5Tc {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+}
+.globe .h5En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: 600;
+}
+.globe .h6Tc {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.globe .h6En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.globe .p1Tc {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.globe .p1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+}
+.globe .p2Tc {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.globe .p2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+.globe .p3Tc {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+}
+.globe .p3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: 500;
+}
+.globe .asideMainTc {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+}
+.globe .headerEn {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.globe .textHint {
+  color: #e49366;
+}
+.globe .textGray {
+  color: #8f8e93;
+}
+.globe .textError {
+  color: #de3e3e;
+}
+
+.main {
+  width: 1280px;
+  margin: 24px auto;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.main .pageContent {
+  display: flex;
+  width: 100%;
+  max-width: 952px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+.main .pageContent .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.main .pageContent .eventDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+.main .pageContent .eventDetail .detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.main .pageContent .eventDetail .detail hr {
+  width: 100%;
+  height: 0.5px;
+  background: #8f8e93;
+}
+.main .pageContent .eventDetail .intro {
+  display: flex;
+  height: 130px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.main .pageContent .eventDetail .intro .cardInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+}
+.main .pageContent .eventDetail .intro .cardInfo .cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main .pageContent .eventDetail .intro .cardInfo .cardContent .groundInfo {
+  display: flex;
+  gap: 4px;
+  margin-inline-start: 10px;
+}
+.main .pageContent .eventDetail .intro .cardInfo img {
+  width: 186px;
+  align-self: stretch;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 18px;
+}
+.main .pageContent .eventDetail .intro .eventDate {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.main .pageContent .eventDetail .intro .eventDate .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .pageContent .eventDetail .intro .eventDate hr {
+  width: 1px;
+  height: 123px;
+  background: #8f8e93;
+}
+.main .pageContent .eventDetail .location .text {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.main .pageContent .eventDetail .location a {
+  color: #e49366;
+}
+.main .pageContent .eventDetail .location #map {
+  width: 100%;
+  height: 510px;
+  background: #ddd;
+}
+.main .pageContent .eventDetail .memberList .memberBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+  margin-bottom: 20px;
+}
+.main .pageContent .eventDetail .memberList .memberBottom .members {
+  display: flex;
+  height: 82px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+.main .pageContent .eventDetail .memberList .memberBottom .members .member {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.main .pageContent .eventDetail .memberList .memberBottom .members .member .participant {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 12px;
+}
+.main .pageContent .eventDetail .memberList .memberBottom .members .tag {
+  display: flex;
+  flex-shrink: 0;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  color: #f5f5f7;
+}
+.main .pageContent .eventDetail .memberList .memberBottom .members .tagOrganizer {
+  background: #413c1c;
+}
+.main .pageContent .eventDetail .memberList .memberBottom .members .tagParticipant {
+  background: #8f8e93;
+}
+.main .pageContent .eventDetail .memberList .btnCancel {
+  display: flex;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 12px;
+  background: #de3e3e;
+  color: #f5f5f7;
+  transition: 0.3s ease;
+}
+.main .pageContent .eventDetail .memberList .btnCancel:hover {
+  background: rgba(222, 62, 62, 0.7333333333);
+}/*# sourceMappingURL=my-event-detail.module.css.map */

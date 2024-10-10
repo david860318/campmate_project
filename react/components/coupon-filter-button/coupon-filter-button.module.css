@@ -1,31 +1,22 @@
-.couponFilter {
+.listTab-tian {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  justify-content: flex-start;
 }
-
-.couponFilter button {
-  flex-grow: 1;
-  padding: 10px 0;
-  border: none;
-  border-bottom: 1px solid #8f8e93;
-  background-color: transparent;
-  cursor: pointer;
-  font-family: 'Montserrat', 'Noto Sans TC';
+.listTab-tian .nav-item {
+  display: flex;
+  align-items: flex-end;
+}
+.listTab-tian .nav-item .nav-link {
   font-size: 14px;
-  font-weight: 600;
+  width: 107px;
+  padding-block: 2px;
+  margin-inline: 5px;
   text-align: center;
-  color: #413c1c;
+  display: block;
+  cursor: pointer;
 }
-
-.couponFilter button:hover {
-  border-bottom: 2px solid #413c1c;
-}
-
-.couponFilter button:active {
-  border-bottom: 2px solid #413c1c;
-}
-
-.couponFilter .active {
-  border-bottom: 2px solid #413c1c;
-}
+.listTab-tian .nav-item .nav-link.active {
+  padding-block: 5px;
+  border-bottom: 1px solid transparent;
+}/*# sourceMappingURL=coupon-filter-button.module.css.map */

@@ -1,0 +1,363 @@
+.globe {
+  color: #2d2d2d;
+  /* default p1Tc */
+  font-family: "Noto Sans TC";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  /* text color */
+}
+.globe p {
+  margin: 0;
+}
+.globe a {
+  text-decoration: none;
+}
+.globe hr {
+  margin: 0;
+}
+.globe .h1Tc {
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 2.56px;
+}
+.globe .h1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 66px;
+  font-weight: 700;
+}
+.globe .h2Tc {
+  font-size: 52px;
+  font-weight: 700;
+  letter-spacing: 2.08px;
+}
+.globe .h2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 54px;
+  font-weight: 600;
+}
+.globe .h3Tc {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1.68px;
+}
+.globe .h3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 44px;
+  font-weight: 600;
+}
+.globe .h4Tc {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+}
+.globe .h4En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 38px;
+  font-weight: 600;
+}
+.globe .h5Tc {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+}
+.globe .h5En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: 600;
+}
+.globe .h6Tc {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+.globe .h6En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+}
+.globe .p1Tc {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+}
+.globe .p1En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 16px;
+  font-weight: 500;
+}
+.globe .p2Tc {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.globe .p2En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+.globe .p3Tc {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.24px;
+}
+.globe .p3En {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 12px;
+  font-weight: 500;
+}
+.globe .asideMainTc {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+}
+.globe .headerEn {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+.globe .textHint {
+  color: #e49366;
+}
+.globe .textGray {
+  color: #8f8e93;
+}
+.globe .textError {
+  color: #de3e3e;
+}
+
+.main {
+  width: 1280px;
+  margin: 24px auto;
+}
+
+.main {
+  width: 1280px;
+  margin: 24px auto;
+}
+.main .details {
+  display: flex;
+  gap: 32px;
+  margin-block: 24px 80px;
+}
+.main .details .gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.main .details .gallery .arrow {
+  width: 24px;
+  height: 24px;
+}
+.main .details .gallery .thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+.main .details .gallery .thumbnails img {
+  width: 77px;
+  height: 77px;
+  border-radius: 18px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.main .details .carousel {
+  width: 515px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .details .carousel .carouselControl {
+  position: relative;
+  color: #2d2d2d;
+}
+.main .details .carousel .mainImage {
+  width: 406px;
+  height: 406px;
+  flex-shrink: 0;
+  border-radius: 18px;
+}
+.main .details .carousel .mainImage img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 18px;
+}
+.main .details .info {
+  display: flex;
+  gap: 32px;
+  width: 625px;
+  height: 600px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+.main .details .info .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.main .details .info .content .title .toGround {
+  cursor: pointer;
+}
+.main .details .info .content .relatedInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.main .details .info .content .relatedInfo .headLine {
+  height: 100%;
+  margin: 0;
+  width: 2px;
+  background: #413c1c;
+}
+.main .details .info .content .relatedInfo .infoDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.main .details .info .content .relatedInfo .infoDetail .detail {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.main .details .info .content .dates {
+  display: flex;
+  width: 296px;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .details .info .content .dates div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .details .info .content .dates hr {
+  width: 1px;
+  height: 123px;
+  background: #8f8e93;
+}
+.main .details .info .btnJoin {
+  display: flex;
+  padding: 10px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 12px;
+  background: #413c1c;
+  color: #f5f5f7;
+  text-align: center;
+  border: none;
+  transition: background 0.3s ease;
+}
+.main .details .info .btnJoin:hover {
+  background: #e49366;
+}
+.main .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 38px;
+  align-self: stretch;
+}
+.main .description .tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  cursor: pointer;
+}
+.main .description .tags .tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  padding: 10px;
+  border-bottom: 1px solid #8f8e93;
+}
+.main .description .tags .active {
+  border-bottom: 2px solid #413c1c;
+}
+.main .description .contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+  align-self: stretch;
+  margin-inline: 218px;
+}
+.main .description .contents .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.main .description .contents .introduction {
+  width: 100%;
+  scroll-margin-top: 105px;
+}
+.main .description .contents .location {
+  scroll-margin-top: 105px;
+  width: 100%;
+}
+.main .description .contents .location .text {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.main .description .contents .location a {
+  color: #e49366;
+}
+.main .description .contents .location #map {
+  width: 100%;
+  height: 510px;
+  background: #ddd;
+}
+.main .description .contents hr {
+  width: 100%;
+  height: 0.5px;
+  background: #8f8e93;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.materialSymbolsOutlined {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
+}/*# sourceMappingURL=event-detail.module.css.map */
